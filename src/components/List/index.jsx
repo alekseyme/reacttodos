@@ -9,7 +9,7 @@ import Badge from '../Badge';
 
 const List = ({ items, removable }) => {
 	const removeList = (name) => {
-		console.log('Удаляю лист: ' + name);
+		console.log('Удаляю лист! ' + name);
 	};
 
 	return (
